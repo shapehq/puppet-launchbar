@@ -15,7 +15,7 @@
 # with hiera data for "launchbar::version"
 #
 class launchbar(
-  $version = '6.1.1'
+  $version = '6.1.6'
 ) {
   package { 'Launchbar':
     ensure   => installed,
